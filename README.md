@@ -38,6 +38,6 @@ pandas
 thop==0.0.31.post2005241907  # FLOPS computation
 pycocotools>=2.0  # COCO mAP
 
-results
+results--------------------------------------
 
 xlsxwriter>=3.0.1
