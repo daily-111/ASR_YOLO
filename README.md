@@ -6,6 +6,7 @@ Welcome to the repository for Super-Resolution Assisted Dual-Branch YOLO, an adv
 # Dependencies
 
  base ----------------------------------------
+ 
 matplotlib>=3.2.2
 numpy>=1.18.5
 opencv-python>=4.1.2
@@ -17,21 +18,26 @@ torchvision>=0.8.1
 tqdm>=4.41.0
 
  logging -------------------------------------
+ 
 tensorboard>=2.4.1
  wandb
 
  plotting ------------------------------------
+ 
 seaborn>=0.11.0
 pandas
 
  export --------------------------------------
+ 
  coremltools>=4.1
  onnx>=1.8.1
  scikit-learn==0.19.2  # for coreml quantization
 
  extras --------------------------------------
+ 
 thop==0.0.31.post2005241907  # FLOPS computation
 pycocotools>=2.0  # COCO mAP
 
-#results
+results
+
 xlsxwriter>=3.0.1
