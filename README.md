@@ -1,6 +1,6 @@
 # Super-Resolution Assisted Dual-Branch YOLO for Enhanced Small Target Detection in Remote Sensing Images
 Welcome to the repository for Super-Resolution Assisted Dual-Branch YOLO, an advanced algorithm designed to enhance small target detection in remote sensing images.
-
+The code in this repository provides data support for the paper "Super-Resolution Assisted Dual-Branch YOLO for Enhanced Small Target Detection in Remote Sensing Images", which has been published on the journal "The Visual Computer".
 ![image](https://github.com/user-attachments/assets/0988a43d-8056-4dcc-bb40-9483b5c71ebf)
 
 # Dependencies
@@ -41,3 +41,20 @@ pycocotools>=2.0  # COCO mAP
 results--------------------------------------
 
 xlsxwriter>=3.0.1
+
+#Download Datasets
+Download datasets from the [baiduyun](https://pan.baidu.com/s/1L0SWi5AQA6ZK9jDIWRY7Fg) (code: hvi4) links and place them in this directory. Your directory structure should look something like this
+
+  `dataset` <br/>
+  `├──`VEDAI  <br/>
+      `├──images`   <br/>
+      `├──labels`  <br/>
+  `├──`VEDAI_1024 <br/>
+      `├──images`   <br/>
+      `├──labels`  <br/>
+
+# important file and document instructions
+transform_vedai.py:Dataset Processing
+test.py:Inference and test of the ASR_YOLO Model
+train.py:Training the ASR_YOLO Model
+models:Store the source code of models for comparison.
