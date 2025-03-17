@@ -1,5 +1,5 @@
 # Super-Resolution Assisted Dual-Branch YOLO for Enhanced Small Target Detection in Remote Sensing Images
-Welcome to the repository for Super-Resolution Assisted Dual-Branch YOLO, an advanced algorithm designed to enhance small target detection in remote sensing images.
+Welcome to the repository for Super-Resolution Assisted Dual-Branch YOLO (ASR-YOLO), an advanced algorithm aimed at balancing image resolution and computational resource consumption to enhance its real-time capabilities in small target detection in remote sensing images.
 The code in this repository provides data support for the paper "Super-Resolution Assisted Dual-Branch YOLO for Enhanced Small Target Detection in Remote Sensing Images", which has been published on the journal "Journal of Real-Time Image Processing".
 ![image](https://github.com/user-attachments/assets/0988a43d-8056-4dcc-bb40-9483b5c71ebf)
 
